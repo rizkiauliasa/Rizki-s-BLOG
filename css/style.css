@@ -1,0 +1,164 @@
+title{
+  background-image: url('../media/3382865257_7dedef23b0_o.jpg');
+}
+
+body{
+  font-family: Century-Gothic, Ink-Free, Rockwell;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #ded6af;
+}
+
+/*Global*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+header{
+  background: #8b8854;
+  color: #ffffff;
+  min-height: 45px;
+  border-bottom: #ded6af 3px solid;
+}
+
+header  a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #judul{
+  float: left;
+}
+
+header #judul h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #c3b091;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #c3b091;
+  font-weight: bold;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  padding-top: 3.75px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  color: #c3b091;
+  font-weight: bold;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: justify;
+  min-width: 150px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  text-align: left;
+}
+
+.show {
+  display: block;
+}
+
+/*Showcase*/
+#showcase{
+  min-height: 400px;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../media/code-coding-data-574077.jpg') no-repeat 0 -300px;
+  width: 100%;
+  color: #ffffff;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 40px;
+}
+
+/*Boxes*/
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: justify;
+  width: 30%;
+  padding: 10px;
+}
+
+footer{
+  padding-top: 50px;
+  padding-bottom: 0.5px;
+  text-align: center;
+}
+
+table{
+  text-align: center;
+  border: 2px solid;
+}
+
+th, td, tr{
+  padding: 0 12px;
+  text-align: center;
+  width: auto;
+  border: 1px solid;
+}
