@@ -1,136 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
+  <!--meta element-->
     <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <meta name="description" content="Laman ini berisi tentang rutinitas saya sebagai mahasiswa Prodi Informatika Universitas Sebelas Maret">
-    <meta name="keywords" content="Informatika, UNS, blog, rutinitas">
+    <meta name="keywords" content="Rizki Aulia Sari, Rizki, Kiki, Informatika, Rutinitas">
     <meta name="author" content="Rizki Aulia Sari (M0517045)">
     <title>Rizki's BLOG | Welcome</title>
     <link rel="shortcut icon" href="./media/favicon.ico">
+  <!--link ke file css-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
   </head>
-
   <body>
+  <!--header-->
     <header>
-      <div class="container">
-        <div id="judul">
-          <h1><span class="highlight">RA</span>S</h1>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="current"><a href="schedule.html">Schedule</a></li>
-            <li><a href="story.html">Story</a></li>
-            <li>
-              <div class="dropdown">
-                <button class="dropbtn" onclick="myFunction()">Learning Site
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content" id="myDropdown">
-                  <a href="learn-site.html">My Recommendations</a>
-                  <a href="https://w3schools.com/">W3SCHOOLS</a>
-                  <a href="https://tutorialspoint.com/">TUTORIALSPOINT</a>
-                  <a href="https://codepolitan.com/">CODEPOLITAN</a>
-                </div>
+      <a href="index.html" class="header-name">RAS</a>
+    <!--navigation-->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="single-post.html">Daily Routines</a></li>
+          <li class="current"><a href="schedule.html">Schedule</a></li>
+          <li>
+      <!--dropdown menu-->
+            <div class="dropdown">
+              <button class="dropbtn" onclick="myFunction()">Learning Site
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="learn-site.html">My Recommendations</a>
+                <a href="https://w3schools.com/" target="_blank">W3SCHOOLS</a>
+                <a href="https://tutorialspoint.com/" target="_blank">TUTORIALSPOINT</a>
+                <a href="https://codepolitan.com/" target="_blank">CODEPOLITAN</a>
               </div>
-            </li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+            </div>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-
+  <!--main content-->
     <main>
-      <div class="container">
-        <h2 class="highlight">Schedule</h2>
-        <p>Nih buat yang penasaran, sebenernya apa sih kegiatan kuliah ku setiap minggu nya.</p>
-        <table>
-          <tbody>
-            <tr>
-              <th>Senin</th>
-              <th>Selasa</th>
-              <th>Rabu</th>
-              <th>Kamis</th>
-              <th>Jumat</th>
-            </tr>
-            <tr>
-              <td>-</td>
-              <td>-</td>
-              <td>Jaringan Komputer (T)</td>
-              <td>-</td>
-              <td>Metode Numerik (T)</td>
-            </tr>
-            <tr>
-              <td>-</td>
-              <td>-</td>
-              <td>Jaringan Komputer (T)</td>
-              <td>-</td>
-              <td>Metode Numerik (T)</td>
-            </tr>
-            <tr>
-              <td>Pemrograman Web (T)</td>
-              <td>-</td>
-              <td>Jaringan Komputer (T)</td>
-              <td>-</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Pemrograman Web (T)</td>
-              <td>Jaringan Komputer (P)</td>
-              <td>-</td>
-              <td>Open Source</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>-</td>
-              <td>Jaringan Komputer (P)</td>
-              <td>-</td>
-              <td>Open Source</td>
-              <td>Rekayasa Perangkat Lunak (P)</td>
-            </tr>
-            <tr>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-              <td>Rekayasa Perangkat Lunak (T)</td>
-              <td>Rekayasa Perangkat Lunak (P)</td>
-            </tr>
-            <tr>
-              <td>Riset Operasi</td>
-              <td>Metode Numerik (P)</td>
-              <td>Teknik Multimedia (T)</td>
-              <td>Rekayasa Perangkat Lunak (T)</td>
-              <td>Teknik Multimedia (P)</td>
-            </tr>
-            <tr>
-              <td>Riset Operasi</td>
-              <td>Metode Numerik (P)</td>
-              <td>Teknik Multimedia (T)</td>
-              <td>Rekayasa Perangkat Lunak (T)</td>
-              <td>Teknik Multimedia (P)</td>
-            </tr>
-            <tr>
-              <td>Pemrograman Web (P)</td>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>Pemrograman Web (P)</td>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="wrapper">
+        <div class="background">
+          <h2>Schedule</h2>
+          <p>Nih buat yang penasaran, sebenernya apa sih kegiatan kuliah ku setiap minggu nya.</p>
+        <!--tabel-->
+          <table>
+            <tbody>
+              <tr>
+                <th>Senin</th>
+                <th>Selasa</th>
+                <th>Rabu</th>
+                <th>Kamis</th>
+                <th>Jumat</th>
+              </tr>
+              <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>Jaringan Komputer (T)</td>
+                <td>-</td>
+                <td>Metode Numerik (T)</td>
+              </tr>
+              <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>Jaringan Komputer (T)</td>
+                <td>-</td>
+                <td>Metode Numerik (T)</td>
+              </tr>
+              <tr>
+                <td>Pemrograman Web (T)</td>
+                <td>-</td>
+                <td>Jaringan Komputer (T)</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Pemrograman Web (T)</td>
+                <td>Jaringan Komputer (P)</td>
+                <td>-</td>
+                <td>Open Source</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>-</td>
+                <td>Jaringan Komputer (P)</td>
+                <td>-</td>
+                <td>Open Source</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Rekayasa Perangkat Lunak (T)</td>
+                <td>Rekayasa Perangkat Lunak (P)</td>
+              </tr>
+              <tr>
+                <td>Riset Operasi</td>
+                <td>Metode Numerik (P)</td>
+                <td>Teknik Multimedia (T)</td>
+                <td>Rekayasa Perangkat Lunak (T)</td>
+                <td>Rekayasa Perangkat Lunak (P)</td>
+              </tr>
+              <tr>
+                <td>Riset Operasi</td>
+                <td>Metode Numerik (P)</td>
+                <td>Teknik Multimedia (T)</td>
+                <td>Rekayasa Perangkat Lunak (T)</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Pemrograman Web (P)</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Teknik Multimedia(P)</td>
+              </tr>
+              <tr>
+                <td>Pemrograman Web (P)</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Teknik Multimedia (P)</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Lumayan padet kan?</p>
+          <p>Buat yang nyariin hari Sabtu sama Minggu gaada ya. Soalnya tiap weekend kiki pulang :'))</p>
+        </div>
       </div>
     </main>
-    <footer><p>&copy; 2019 rizkiauliasa</p></footer>
+  <!--footer-->
+    <footer>
+      <ul>
+        <li id="copyright"><p>rizkiauliasa &copy; 2019</p></li>
+        <li><a href="mailto:rizkiauliasa@gmail.com"><img src="./media/envelope.png" alt="envelope icon"></a></li>
+        <li><a href="https://www.instagram.com/auliariizki/" target="_blank"><img src="./media/instagram.png" alt="instagram icon"></a></li>
+        <li><a href="https://www.github.com/rizkiauliasa/" target="_blank"><img src="./media/GitHub.png" alt="GitHub icon"></a></li>
+      </ul>
+    </footer>
+  <!--link ke file javascript-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
   </body>
